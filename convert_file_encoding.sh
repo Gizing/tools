@@ -1,8 +1,8 @@
 #!/bin/bash
 
 if [ $# -ne 3 ]; then
-    echo "usage: sh convert_file_encoding.sh dir src_encoding dst_encoding"
-    echo "example: sh convert_file_encoding.sh ./ GBK UTF-8"
+    echo "usage: sh $0 dir src_encoding dst_encoding"
+    echo "example: sh $0 ./ GBK UTF-8"
     exit
 fi
 

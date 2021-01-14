@@ -3,7 +3,7 @@
 # 将PC上指定目录的音乐文件同步到移动硬盘上，同名旧文件不覆盖
 
 if [ ! $1 ]; then
-    echo "usage: sh sync_music_file.bash xxx"
+    echo "usage: sh $0 xxx"
     echo "xxx is any input what you like, it is useless"
     exit
 fi
